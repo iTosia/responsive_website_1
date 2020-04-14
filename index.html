@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Website</title>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">LOGO</a>
+        <ul>
+            <li class="active"><a href="#home" onclick="toggle()">Home</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#service" onclick="toggle()">Service</a></li>
+            <li><a href="#price" onclick="toggle()">Price</a></li>
+            <li><a href="#testimonial" onclick="toggle()">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggle()">Contact</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div>
+            <h2>Responsive Website</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque culpa quaerat sit in quasi facilis harum quis! Ipsam consectetur, optio id, inventore accusantium natus mollitia temporibus cumque voluptas soluta nihil.</p>
+            <a class="button" href="#">Read More</a>
+        </div>
+        <img src="images/image_1.jpg" alt="Image-1">
+    </section>
+    <section id="about">
+        <div>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequatur? Sit inventore a blanditiis expedita accusantium nam rem, optio dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequatur? Sit inventore a blanditiis expedita accusantium nam rem, optio dolores.</p>
+        </div>
+        <img src="images/image_2.jpg" alt="Image-1">
+    </section>
+    <section id="service">
+            <h2>Our services</h2>
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="images/sketch.png" alt="">
+                            <h3>Design</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, culpa.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="images/startup.png" alt="">
+                            <h3>Launch</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, culpa.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <img src="images/data.png" alt="">
+                            <h3>Code</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, culpa.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="price">
+        <div class="heading">
+            <h2>Our Price</h2>
+        </div>
+            <div class="container">
+                <div class="price_card">
+                    <div class="name">
+                        <h3>Free</h3>
+                    </div>
+                    <div class="details">
+                        <div class="content_price">
+                            <h2>$0<span>/month</span></h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, repudiandae.</p>
+                            <a href="#">Try Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="price_card">
+                    <div class="name">
+                        <h3>Basic</h3>
+                    </div>
+                    <div class="details">
+                        <div class="content_price">
+                            <h2>$100<span>/month</span></h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, repudiandae.</p>
+                            <a href="#">Try Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="price_card">
+                    <div class="name">
+                        <h3>Premium</h3>
+                    </div>
+                    <div class="details">
+                        <div class="content_price">
+                            <h2>$500<span>/month</span></h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, repudiandae.</p>
+                            <a href="#">Try Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="testimonial">
+        <div class="heading">
+            <h2>Our testimonial</h2>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="comment_content">
+                    <img src="images/quote.png" alt="quote" class="quote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, qui.</p>
+                    <img src="images/user1.jpg" alt="user" class="user">
+                    <h3>User 1</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="comment_content">
+                    <img src="images/quote.png" alt="quote" class="quote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, qui.</p>
+                    <img src="images/user2.jpg" alt="user" class="user">
+                    <h3>User 2</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="comment_content">
+                    <img src="images/quote.png" alt="quote" class="quote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, qui.</p>
+                    <img src="images/user3.jpg" alt="user" class="user">
+                    <h3>User 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact_us">
+            <h2>Contact with us</h2>
+        </div>
+        <div class="social">
+            <a class="facebook" href="#"><i class="fab fa-facebook-square"></i></a>
+            <a class="instagram" href="#"><i class="fab fa-instagram-square instagram"></i></a>
+            <a class="twitter" href="#"><i class="fab fa-twitter-square"></i></a>
+            <a class="youtube" href="#"><i class="fab fa-youtube-square"></i></a>
+            <a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/e3e3356724.js" crossorigin="anonymous"></script>
+</body>
+</html>
